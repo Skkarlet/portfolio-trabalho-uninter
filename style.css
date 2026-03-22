@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(179, 253, 228);
+    margin: 0;
+}
+
+.boasvindas{
+    text-align: center;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #92f6df;
+    padding: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff4d6d;
+}
+
+.foto1{
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.foto2{
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.foto3{
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    width: 100%;
+}
+
+/* CARDS */
+section {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #83dcc7;
+    margin: 20px auto;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+/* EFEITO HOVER NOS CARDS */
+section:hover {
+    transform: scale(1.02);
+}
+
+/* LINHA LADO A LADO */
+.linha {
+    display: flex;
+    gap: 20px;
+}
+
+/* DIVIDE ESPAÇO IGUAL */
+.linha section {
+    flex: 1;
+    max-width: none;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    background-color: #ff4d6d;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e63956;
+}
+
+#status {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.ced {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.ced:hover {
+    color: red;
+}

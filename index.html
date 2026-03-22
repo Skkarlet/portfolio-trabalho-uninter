@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Desirée</title>
+</head>
+<body>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="boasvindas">
+        <h1>Desirée Gonçalves Rocha</h1>
+        <h2>Boas-vindas!</h2>
+    </div>
+    <img class="foto1" src="https://img.freepik.com/fotos-premium/retrato-de-um-empresario-bem-sucedido-que-trabalha-em-um-computador-portatil-em-seu-escritorio-na-grande-cidade-a-noite-um-empreendedor-digital-carismatico-faz-analise-de-dados-para-a-estrategia-de-comercio-eletronico_343960-60059.jpg?w=360" alt="Imagem de uma pessoa em um computador na frente de uma janela com uma paisagem futurista">
+
+    <!-- CONTAINER PRINCIPAL -->
+    <div class="container">
+
+        <!-- SOBRE -->
+        <section id="sobre">
+            <h2>👾Sobre mim:</h2>
+            <p>Eu sou estudante de programação de Brasília(DF).</p>
+            <p>Desde sempre gosto de tecnologia, computadores, lógica e matemática. Além disso, minhas paixões são animais, estudar culturas, idiomas e filosofias.</p>
+
+            <h3>Habilidades:</h3>
+            <ol>
+                <li>HTML, CSS, JavaScript</li>
+                <li>C#</li>
+                <li>C</li>  
+                <li>Python</li>
+                <li>Git e Github</li>
+                <li>Assembly RISC-V</li>
+            </ol>
+        </section>
+
+        <div class="linha">
+            <section id="formacao">
+                <h2>👾Formação:</h2>
+                <ul>
+                    <li>Curso de Introdução a C# pelo projeto BRASIL.IA</li>
+                    <li>Curso Google AI Essentials</li>
+                    <li>Cursando Análise e Desenvolvimento de Sistemas na Uninter</li>
+                    <li>Graduação incompleta em Ciências da Computação na Universidade de Brasília (UnB)</li>
+                    <li>Inglês avançado com certificação do curso New Ubest</li>
+                </ul>
+                <img class="foto2" src="https://img.freepik.com/fotos-premium/gato-futurista-com-oculos-de-protecao-em-fundo-cyberpunk_731790-168599.jpg?semt=ais_hybrid&w=740&q=80" alt="gato em cenário futurista">
+            </section>
+
+            <!-- PORTFÓLIO -->
+            <section id="portfolio">
+                <h2>👾Portfólio:</h2>
+                <a href="https://skkarlet.github.io/Trabalho-FDS/" target="_blank">Meu primeiro site</a>
+                <p>Projeto de sistema em desenvolvimento para catalogar e mapear gatos comunitários, auxiliando na estratégia <span title="Captura, Esterilização, Devolução/Doação" class="ced">CED</span>.</p>
+                <p>Projeto de jogo de RPG de texto</p>
+                <p>Projeto de design para app de banco</p>
+            </section>
+
+        </div>
+
+        <!-- CONTATO -->
+        <section id="contato">
+            <img class="foto3" src="https://static.vecteezy.com/ti/fotos-gratis/t2/70415680-futurista-subterraneo-corredor-com-neon-rosa-quadrado-quadro-armacao-e-reflexoes-dentro-uma-cyberpunk-estilo-foto.jpg" alt="corredor subterraneo estilo cyberpunk">
+            <h2>👾Contato:</h2>
+            <p>Disponível para projetos e aprendizado contínuo.</p>
+            <p>Enviar um e-mail</p>
+
+            <form id="formContato">
+                <input type="text" id="nome" placeholder="Seu nome" required>
+                <br>
+                <input type="email" id="email" placeholder="Seu email" required>
+                <br>
+                <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="status"></p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
